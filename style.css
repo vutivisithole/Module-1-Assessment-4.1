@@ -1,0 +1,52 @@
+body{background-color:cornsilk }
+
+h1{
+    color:darkgoldenrod;
+    text-transform: full-width
+}
+h3{
+    color: dimgrey
+}
+p{
+    text-align: left;
+    text-decoration-style: solid;
+    text-decoration-color: darkslategray;
+}
+table {
+    border-collapse: collapse;
+    
+}
+
+table th {
+   text-align: left;
+    background-color:darkslategray;
+    color:currentColor;
+    padding: 4px 30px 4px 8px;
+    
+}
+
+table td {
+    border: 1px solid #e3e3e3;
+    padding: 4px 8px;
+    
+}
+table tr:nth-child(odd) td {
+    background-color: #e7edf0
+    
+}
+
+#menu-bar a{
+      background-image : url('images/menu-button.gif');
+      background-repeat: no-repeat;
+      display          : block;
+      width            : 128px;
+      height           : 25px;
+      padding-left     : 18px
+      padding-top      : 2px;
+      float            : left;
+}
+
+#menu-bar a:hover{
+      background-image: url('images/menu-button-hover.gif');
+      color           : #ffffff;
+}
